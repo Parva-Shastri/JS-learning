@@ -87,3 +87,36 @@ alert("some code");
     confirm(`Your name is ${name}`);
     */
 
+// Type conversions
+    /*
+    // String conversion
+
+        // let value = true;
+        // alert(typeof value); // boolean, by default
+
+        // value = String(value)
+        // alert(typeof value); // string, as converted to string
+
+        // alert("6" / "2"); // 3, as strings are converted to numbers
+    
+    // Number conversion
+
+        // let str = "100";
+        // alert(typeof str);
+
+        // str = Number(str);
+        // alert(typeof str);
+
+        // let value = Number("My age");
+        // alert(typeof value); // number, as it is converted
+        // alert(value); // Nan, as it's a string, not a number
+        // alert(Number(true)); // 1
+        // alert(Number(false)); // 0
+
+    // Boolean conversion
+
+        // alert(Boolean(1)); // true
+        // alert(Boolean(0)); // false
+        // alert(Boolean('0')); // true, as this is considered as string
+
+    */
