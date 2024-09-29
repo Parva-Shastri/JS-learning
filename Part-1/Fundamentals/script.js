@@ -120,3 +120,12 @@ alert("some code");
         // alert(Boolean('0')); // true, as this is considered as string
 
     */
+
+// Basic operators, maths
+    /*
+    // Fix, the result is 12, but it should be 3
+    let a = prompt("First number?", 1);
+    let b = prompt("Second number?", 2);
+
+    alert(+a + +b); // added `+` before each variables to achive the output
+    */
