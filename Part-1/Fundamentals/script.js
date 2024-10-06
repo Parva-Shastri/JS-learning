@@ -129,3 +129,74 @@ alert("some code");
 
     alert(+a + +b); // added `+` before each variables to achive the output
     */
+
+// Functions
+/*
+let userName = "John";
+function showUser() {
+    // userName = "Ana"; // This will override the userName variable after this function is used
+    // let userName = "Bob"; // This will only override wherever this function is used
+    alert(userName);
+ }
+
+ // Below are the examples of functions with parameters
+ // function sample() {
+    //     return "Default message!"; // returns the value as output
+    //   }
+    
+    //   function showMessage(from = "Anonymous", text = sample()) { // default values can be either "text" or another "function"
+    //     alert(from + ": " + text);
+    //   }
+    //   showMessage("Alice", "Hello!"); // Alice: Hello!
+    //   showMessage("Bob"); // Bob: Default message
+    //   showMessage(undefined, "Hello, world!"); // Anonymous: "Hello, world!"
+    
+    // Task
+        // function min(a, b) {
+        //     if(a < b) {
+        //         alert(a);
+        //         return a;
+        //     }
+        //     else {
+        //         alert(b);
+        //         return b;
+        //     }
+        // }
+        
+        // min(15, 6);
+*/
+
+        // pow(x, n)
+        // Provided x & n
+        // Then 'x' should be multiplied 'n' times
+        
+        //  |- - - Wrong code - - -| //
+            // function pow(x, n) {
+            //     let x = prompt("Value of x?", "");
+            //     let n = prompt("Value of n?", "");
+
+            //     let answer = (x *= n);
+            // }
+
+            // alert(pow());
+        
+        // Correct code
+            // function pow (x, n) {
+
+            //     let answer = x;
+            //     for (let i = 1; i < n; i++) {
+            //         answer *= x;
+            //     }
+
+            //     return answer;
+            // }
+
+            // let x = prompt("Value of x?", "");
+            // let n = prompt("Value of n?", "");
+
+            // if (n < 1) {
+            //     alert("Not supported, use positive number");
+            // }
+            // else {
+            //     alert( pow(x, n) );
+            // }
