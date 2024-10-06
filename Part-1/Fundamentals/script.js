@@ -200,3 +200,19 @@ function showUser() {
             // else {
             //     alert( pow(x, n) );
             // }
+
+// Arrow functions
+
+    // let ask = (question, yes, no) => {
+    //     confirm(question) ? yes() : no();
+    // }
+
+    // let showYes = function() {
+    //     alert("You agreed.");
+    // };
+    
+    // let showNo = function() {
+    //     alert("You cancelled the execution.");
+    // };
+
+    // ask("Do you agree?", showYes, showNo);
