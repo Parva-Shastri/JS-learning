@@ -216,3 +216,74 @@ function showUser() {
     // };
 
     // ask("Do you agree?", showYes, showNo);
+
+// Objects
+    // let user = new Object(); // Object constructor
+    // let userAgain = {}; // Object literal
+
+    // Example 1
+        // let user = { // object
+        //     name: "John", // key: value
+        //     age: 30
+        // };
+
+        // alert(user.name);
+        // alert(user.age);
+
+        // // set // from outside the object
+        // user["likes birds"] = true;
+
+        // // get
+        // alert(user["likes birds"]);
+        
+        // // delete
+        // delete user["likes birds"];
+        // alert(user["likes birds"]);
+    
+    // Example 2
+        // function user (name, age) {
+        //     return {
+        //         name,
+        //         age,
+        //     }
+        // }
+
+        // let details = user("John", 20);
+
+        // alert(details.name);
+
+    // Example 3 (self)
+        // function calc (num1, num2) {
+        //     return {
+        //         num1,
+        //         num2
+        //     }
+        // }
+
+        // let ans = calc(
+        //     prompt("Number 1?", ""),
+        //     prompt("Number 2?", "")
+        // )
+
+        // alert(+ans.num1 + +ans.num2);
+
+    // "Key" in object
+        // let user = { name: "John", age: 30 };
+
+        // alert( "age" in user ); // true, user.age exists
+        // alert( "blabla" in user ); // false, user.blabla doesn't exist
+        // let key = "age";
+        // alert( key in user ); // true, property "age" exists
+
+    // for..in examples
+        // let sample = {
+        //     a: "String",
+        //     b: 20,
+        //     c: undefined
+        // };
+
+        // for (let key in sample) {
+        //     alert( key );               // prints the "key"
+        //     alert( sample[key] );       // prints "value" of the key
+        //     alert(key in sample);       // true/false
+        // }
