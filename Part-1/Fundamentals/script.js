@@ -1,3 +1,4 @@
+console.log("JS LEARNING");
 // Task - 1
 // 1.2
 // alert("I'm second Javascript");
@@ -287,3 +288,26 @@ function showUser() {
         //     alert( sample[key] );       // prints "value" of the key
         //     alert(key in sample);       // true/false
         // }
+
+// Constructor, operator "new"
+    // function User(name, bool) {
+    //     this.name = name;
+    //     this.isAdmin = bool;
+    // }
+
+    // let student = new User("Jack", true); // {} => student.isAdmin: true, student.name: "Jack"
+
+    // let jack = new User("Someone", false) // {} => jack.isAdmin: false, jack.name: "Someone"
+
+    // console.log("Student:", student.name); // Jack
+    // console.log("Admin?:", student.isAdmin); // true
+
+    // console.log(jack.name); // Someone
+    // console.log(jack.isAdmin); // false
+    // printObject(student)
+
+    // // this will print the whole obj
+    // //  in JSON format
+    // function printObject(obj) {
+    //     console.log(JSON.stringify(obj, null, 2))
+    // } // by Saums boz
