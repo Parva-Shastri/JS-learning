@@ -311,3 +311,74 @@ function showUser() {
     // function printObject(obj) {
     //     console.log(JSON.stringify(obj, null, 2))
     // } // by Saums boz
+
+
+// MARK: Map & Set (WIP)
+// 1. Map
+    // Here, Key can be of any type
+    // let map = new Map();
+    // map.set('1', 'string');
+    // map.set(true, 'boolean');
+    // map.set(2, 'number');
+
+    // map.set(null, 'null');
+    // map.set(undefined, 'undefined');
+    // map.set('', 'nothing');
+
+    // let obj = { name: "Parva" }
+    // map.set(obj, 'object');
+    // map.set([ 1, 2, 3 ], 'array');
+
+    // console.log("\nWithout using JSON stringify:");
+    // for (const [key, value] of map) {
+    //     console.log(`\t${key}: \t ${value}`);
+    // }
+
+    // console.log("\nWith JSON stringify:");
+    // for (const [key, value] of map) {
+    //     console.log(`\t${JSON.stringify(key)}: \t ${value}`);
+    //     // The main difference is that the array and object are converted to string here
+    // }
+
+    // Chain of maps
+
+        // let mapTwo = new Map();
+
+        // mapTwo.set("1", "first")
+        // .set("2", "second")
+        // .set("3", "third");
+        
+        // alert(mapTwo.get("1"));
+        // console.log(mapTwo.get("1"));
+        
+
+        // for(const [key, value] of mapTwo) {
+        //     console.log(`${key}: ${value}`);
+        // }
+
+        // for(let items of mapTwo) {
+        //     console.log(items);
+        // }
+
+// 2. Set
+    // here, each value can only occur once repeating values are ignored
+    // let set = new Set();
+
+    // let one = { name: "John" };
+    // let two = { name: "Pete" };
+    // let three = { name: "Mary" };
+
+    // set.add(one);
+    // set.add(two);
+    // set.add(one); // repeated
+    // set.add(three);
+    // set.add(two); // repeated
+
+    // // alert(set.size); // 3, as repeating values are ignored
+
+    // for (let people of set) {
+    //     // console.log(people.name);
+    //     // // console.log(people);
+    // }
+
+    // Your task: Examples + iterations hands-on
