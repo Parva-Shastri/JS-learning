@@ -313,7 +313,7 @@ function showUser() {
     // } // by Saums boz
 
 
-// MARK: Map & Set (WIP)
+// MARK: Map & Set
 // 1. Map
     // Here, Key can be of any type
     // let map = new Map();
@@ -382,3 +382,6 @@ function showUser() {
     // }
 
     // Your task: Examples + iterations hands-on
+
+// MARK: WeakMap and WeakSet (WIP)
+
